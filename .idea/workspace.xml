@@ -54,7 +54,7 @@
       <recent name="$PROJECT_DIR$/drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Day03_Locators.locatorsTest">
+  <component name="RunManager" selected="JUnit.Day04_AccountCreating.accountCreatingTest">
     <configuration name="Day02_JUnitAnnotations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myseleniumproject" />
       <extension name="coverage">
@@ -66,22 +66,6 @@
       <option name="PACKAGE_NAME" value="com.myfirstproject" />
       <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day02_JUnitAnnotations" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day02_JUnitAnnotations.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myseleniumproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.myfirstproject.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.myfirstproject" />
-      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day02_JUnitAnnotations" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -133,13 +117,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day04_AccountCreating.accountCreatingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myseleniumproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myfirstproject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.myfirstproject" />
+      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day04_AccountCreating" />
+      <option name="METHOD_NAME" value="accountCreatingTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Day04_AccountCreating.accountCreatingTest" />
         <item itemvalue="JUnit.Day03_Locators.locatorsTest" />
         <item itemvalue="JUnit.Day03_Locators" />
         <item itemvalue="JUnit.Day02_JUnitAssertions.assertions" />
         <item itemvalue="JUnit.Day02_JUnitAnnotations" />
-        <item itemvalue="JUnit.Day02_JUnitAnnotations.test1" />
       </list>
     </recent_temporary>
   </component>
