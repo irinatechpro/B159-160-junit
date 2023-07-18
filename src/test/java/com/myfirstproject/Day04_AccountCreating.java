@@ -1,6 +1,7 @@
 package com.myfirstproject;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -21,6 +22,10 @@ public class Day04_AccountCreating {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
         driver.manage().window().maximize();
     }
+    @After
+    public void tearDown(){
+        driver.quit();
+    }
     @Test
     public void accountCreatingTest(){
 //        1. Launch browser - DONE IN setUp
@@ -36,8 +41,7 @@ public class Day04_AccountCreating {
         Assert.assertTrue(driver.findElement(By.xpath("//h2[.='New User Signup!']")).isDisplayed());
 //        6. Enter name and email address
         driver.findElement(By.xpath("//input[@name='name']")).sendKeys("John Walker");
-        driver.findElement(By.cssSelector("input[data-qa='signup-email']")).sendKeys("testt11212120198@gmail.com");
-//        test1121212012@gmail.com
+        driver.findElement(By.cssSelector("input[data-qa='signup-email']")).sendKeys("twtet12128@gmail.com");
         driver.findElement(By.cssSelector("button[data-qa='signup-button']")).click();
 
 //        7. Click 'Signup' button
@@ -103,44 +107,37 @@ public class Day04_AccountCreating {
 
 
 
-//        14. Verify that 'ACCOUNT CREATED!' is visible
-        Assert.assertTrue(driver.findElement(By.xpath("//b[.='Account Created!']")).isDisplayed());
-//        15. Click 'Continue' button
-        driver.findElement(By.xpath("//a[@data-qa='continue-button']")).click();
 //        NOTE: THERE IS A WEB POP UP THAT IS SHOWING UP AFTER CLICKING CREATE ACCOUNT AND WE MUST CLOSE TO PROCEED
 //        USING TRY CATCH BECAUSE THIS POP UP MAY NOT ALWAYS SHOW UP
         try {
-//
+            Thread.sleep(5000);// hard wait
+            driver.navigate().refresh();// to get rid of the popup, refreshing the page
+//        14. Verify that 'ACCOUNT CREATED!' is visible
+            Assert.assertTrue(driver.findElement(By.xpath("//b[.='Account Created!']")).isDisplayed());
+//        15. Click 'Continue' button
+            driver.navigate().refresh();
             Thread.sleep(5000);
-//            try to click the web pop up if it shows up
-//            if the pop-up doesn't up, then do not fail.... just catch it.. and continue the test case
-//            the pop up is inside the iframe so we must switch to the iframe first
-            driver.switchTo().frame(driver.findElement(By.xpath("//iframe[@id='ad_iframe']")));
-            Thread.sleep(5000);
-            driver.findElement(By.xpath("//div[@id='dismiss-button']")).click();
-        }catch (Exception e){
-            System.out.println("POP UP IS NOT DISPLAYED... JUST CONTINUE");
+//           in the first click, click action is not working. it generates a windows pop up which goes away after we refresh
+            driver.findElement(By.xpath("//a[@data-qa='continue-button']")).click();
+        } catch (Exception e) {
+            throw new RuntimeException(e);
         }
         try {
-//
+//        15. Click 'Continue' button
+            driver.navigate().refresh();// refreshing because a window popup may show up.
             Thread.sleep(5000);
-//            try to click the web pop up if it shows up
-//            if the pop-up doesn't up, then do not fail.... just catch it.. and continue the test case
-//            the pop up is inside the iframe so we must switch to the iframe first
-            driver.switchTo().frame(driver.findElement(By.xpath("//iframe[@id='aswift_1']")));
-            Thread.sleep(5000);
-            driver.findElement(By.xpath("//div[@id='dismiss-button']")).click();
-        }catch (Exception e){
-            System.out.println("POP UP IS NOT DISPLAYED... JUST CONTINUE");
+            driver.findElement(By.xpath("//a[@data-qa='continue-button']")).click();//second click is working
+            driver.navigate().refresh();
+        } catch (Exception e) {
+            throw new RuntimeException(e);
         }
 //        16. Verify that 'Logged in as username' is visible
         Assert.assertTrue(driver.findElement(By.xpath("//*[contains(text(),'Logged in as')]")).isDisplayed());
 //        17. Click 'Delete Account' button
-        driver.findElement(By.xpath("//*[contains(text(),'Delete Account')")).click();
+        driver.findElement(By.xpath("//*[contains(text(),'Delete Account')]")).click();
 //        18. Verify that 'ACCOUNT DELETED!' is visible and click 'Continue' button
         Assert.assertTrue(driver.findElement(By.xpath("//*[contains(text(),'Account Deleted!')]")).isDisplayed());
         driver.findElement(By.xpath("//a[@data-qa='continue-button']")).click();
-
 
     }
 }
