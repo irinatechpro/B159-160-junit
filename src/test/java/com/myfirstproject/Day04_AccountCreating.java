@@ -1,5 +1,6 @@
 package com.myfirstproject;
 
+import com.github.javafaker.Faker;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.After;
 import org.junit.Assert;
@@ -40,8 +41,17 @@ public class Day04_AccountCreating {
 //        5. Verify 'New User Signup!' is visible
         Assert.assertTrue(driver.findElement(By.xpath("//h2[.='New User Signup!']")).isDisplayed());
 //        6. Enter name and email address
-        driver.findElement(By.xpath("//input[@name='name']")).sendKeys("John Walker");
-        driver.findElement(By.cssSelector("input[data-qa='signup-email']")).sendKeys("twtet12128@gmail.com");
+//        driver.findElement(By.xpath("//input[@name='name']")).sendKeys("John Walker");
+//        driver.findElement(By.cssSelector("input[data-qa='signup-email']")).sendKeys("twtet12128@gmail.com");
+//        Using Fake Data
+        Faker faker = new Faker();
+        String fullName = faker.name().fullName();
+        System.out.println(fullName);
+        driver.findElement(By.xpath("//input[@name='name']")).sendKeys(fullName);
+        String emailAddress = faker.internet().emailAddress();
+        System.out.println(emailAddress);
+        driver.findElement(By.cssSelector("input[data-qa='signup-email']")).sendKeys(emailAddress);
+
         driver.findElement(By.cssSelector("button[data-qa='signup-button']")).click();
 
 //        7. Click 'Signup' button
@@ -54,7 +64,11 @@ public class Day04_AccountCreating {
 //        name already filled
 //        email already filled
 //        password
-        driver.findElement(By.xpath("//input[@id='password']")).sendKeys("test123!");
+//        driver.findElement(By.xpath("//input[@id='password']")).sendKeys("test123!");
+        String pass = faker.name().firstName()+faker.number().digits(3);//give me a fake pass such randomNamexxx
+        System.out.println(pass);
+
+        driver.findElement(By.xpath("//input[@id='password']")).sendKeys(pass);
 //        Date of birth -> DROPDOWN : 1. index 2. value 3. visible text
 //        DAY
 //        1. locate the day dropdown element
