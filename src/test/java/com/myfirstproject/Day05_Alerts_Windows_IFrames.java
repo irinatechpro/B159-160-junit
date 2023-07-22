@@ -61,17 +61,12 @@ public class Day05_Alerts_Windows_IFrames extends TestBase {
         for (WebElement each : middleFrameListItems){
             System.out.println(each.getText());
         }
-
         String lastItemText = middleFrameListItems.get(middleFrameListItems.size()-1).getText();
         Assert.assertEquals("Expected and Actual Not Equal","Middle List Item 39",lastItemText);
-
-
     }
 
-
-
     @Test
-    public void alertWindowsIframeTest2(){
+    public void alertWindowsIframeTest2() throws InterruptedException {
 //        When Navigate to https://testpages.herokuapp.com/styled/windows-test.html
         driver.get("https://testpages.herokuapp.com/styled/windows-test.html");
 //        When Click on "Alerts In A New Window From JavaScript"
@@ -94,12 +89,12 @@ public class Day05_Alerts_Windows_IFrames extends TestBase {
             if (!eachHandle.equals(window1Handle)){
                 System.out.println(eachHandle);
                 driver.switchTo().window(eachHandle);
+                break;
             }
         }
-
-
 //        And Click on "Show alert box" button
         driver.findElement(By.id("alertexamples")).click();//clicking the button that in on window 2
+        Thread.sleep(2);
 
 //        And Accept alert
         driver.switchTo().alert().accept();
@@ -107,11 +102,22 @@ public class Day05_Alerts_Windows_IFrames extends TestBase {
 //        COMPLETE IN THE NEXT CLASS...
 
 //        And Click on "Show confirm box" button
+        driver.findElement(By.xpath("//input[@id='confirmexample']")).click();
+        Thread.sleep(2);
 //        And Cancel alert
+        driver.switchTo().alert().dismiss();
 //        Then Assert that alert is canceled
+        Assert.assertTrue(driver.findElement(By.xpath("//p[@id='confirmexplanation']")).getText().contains("Cancel"));
 //        When Click on "Show prompt box" button
+        driver.findElement(By.xpath("//input[@id='promptexample']")).click();
+        Thread.sleep(2);
 //        And Send "Hello World!" to the alert
+        driver.switchTo().alert().sendKeys("Hello World!");
+        driver.switchTo().alert().accept();
 //        Then Assert that "Hello World!" is sent
+        Assert.assertTrue(driver.findElement(By.cssSelector("#promptreturn")).getText().contains("Hello World!"));
+
+
 
     }
 
