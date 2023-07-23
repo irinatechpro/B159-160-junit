@@ -19,7 +19,6 @@
       <change beforePath="$PROJECT_DIR$/../mycucumberproject/src/test/resources/features/day20_parameterizing_feature_file.feature" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../mycucumberproject/src/test/resources/features/day20_scenario_outline1.feature" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day05_Alerts_Windows_IFrames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day05_Alerts_Windows_IFrames.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/myfirstproject/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/utilities/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,23 +56,7 @@
       <recent name="$PROJECT_DIR$/drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Day06_BasicAuth.authTest">
-    <configuration name="Day05_Alerts_Windows_IFrames.alertWindowsIframeTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myseleniumproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.myfirstproject.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.myfirstproject" />
-      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day05_Alerts_Windows_IFrames" />
-      <option name="METHOD_NAME" value="alertWindowsIframeTest2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Day07_Actions2.dragAndDropTest">
     <configuration name="Day06_BasicAuth.authTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myseleniumproject" />
       <extension name="coverage">
@@ -90,7 +73,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day06_NewWindowTabs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Day07_Actions1.actions1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myseleniumproject" />
       <extension name="coverage">
         <pattern>
@@ -99,29 +82,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.myfirstproject" />
-      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day06_NewWindowTabs" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day06_NewWindowTabs.newTabTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myseleniumproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.myfirstproject.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.myfirstproject" />
-      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day06_NewWindowTabs" />
-      <option name="METHOD_NAME" value="newTabTest" />
+      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day07_Actions1" />
+      <option name="METHOD_NAME" value="actions1Test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day06_NewWindowTabs.newWindowTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Day07_Actions2.dragAndDropTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myseleniumproject" />
       <extension name="coverage">
         <pattern>
@@ -130,8 +98,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.myfirstproject" />
-      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day06_NewWindowTabs" />
-      <option name="METHOD_NAME" value="newWindowTest" />
+      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day07_Actions2" />
+      <option name="METHOD_NAME" value="dragAndDropTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day07_Cookies.cookiesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myseleniumproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myfirstproject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.myfirstproject" />
+      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day07_Cookies" />
+      <option name="METHOD_NAME" value="cookiesTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test1.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myseleniumproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myfirstproject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.myfirstproject" />
+      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.test1" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Day07_Actions2.dragAndDropTest" />
+        <item itemvalue="JUnit.Day07_Actions1.actions1Test" />
+        <item itemvalue="JUnit.Day07_Cookies.cookiesTest" />
+        <item itemvalue="JUnit.test1.test2" />
         <item itemvalue="JUnit.Day06_BasicAuth.authTest" />
-        <item itemvalue="JUnit.Day06_NewWindowTabs" />
-        <item itemvalue="JUnit.Day06_NewWindowTabs.newWindowTest" />
-        <item itemvalue="JUnit.Day06_NewWindowTabs.newTabTest" />
-        <item itemvalue="JUnit.Day05_Alerts_Windows_IFrames.alertWindowsIframeTest2" />
       </list>
     </recent_temporary>
   </component>
