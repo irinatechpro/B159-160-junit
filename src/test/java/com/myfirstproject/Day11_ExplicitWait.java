@@ -28,6 +28,12 @@ public class Day11_ExplicitWait extends TestBase {
 //        WebElement helloWorld = driver.findElement(By.xpath("//div[@id='finish']//h4"));
 //        Assert.assertEquals("Hello World!",helloWorld.getText());
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+        /*
+        waiting fot Hello World element
+        and Locating and storing in helloWorld variable
+        1.
+         */
+
         WebElement helloWorld=wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//div[@id='finish']//h4"))));
         Assert.assertEquals("Hello World!",helloWorld.getText());
    }
