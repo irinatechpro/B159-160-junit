@@ -16,7 +16,7 @@ public class Day07_Actions2 extends TestBase {
         /*
         elements are inside an iframe so switch first
          */
-//        driver.switchTo().frame(0);
+        //driver.switchTo().frame(0);
         WebElement frameElement = driver.findElement(By.xpath("//iframe[@class='demo-frame']"));
         driver.switchTo().frame(frameElement);
         WebElement target = driver.findElement(By.id("draggable"));
@@ -26,13 +26,13 @@ public class Day07_Actions2 extends TestBase {
     }
     @Test
     public void dragAndDropTest2(){
-//        Given user is on https://jqueryui.com/droppable/
+////        Given user is on https://jqueryui.com/droppable/
         driver.get("https://jqueryui.com/droppable/");
-//        And user moves the target element(Drag me to my target) in to  destination(Drop here)
-        /*
-        elements are inside an iframe so switch first
-         */
-//        driver.switchTo().frame(0);
+////        And user moves the target element(Drag me to my target) in to  destination(Drop here)
+//        /*
+//        elements are inside an iframe so switch first
+//         */
+////        driver.switchTo().frame(0);
         WebElement frameElement = driver.findElement(By.xpath("//iframe[@class='demo-frame']"));
         driver.switchTo().frame(frameElement);
         WebElement target = driver.findElement(By.id("draggable"));

@@ -5,20 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79878743-3c49-4f37-b20e-42f13c2e7e63" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../batch103Cucumber/batch103Cucumber.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chatt/chatt.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../selenide-docs/.idea/selenide-docs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mycucumberproject/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../mycucumberproject/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mycucumberproject/src/test/java/pages/GooglePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mycucumberproject/src/test/java/pages/GooglePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mycucumberproject/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mycucumberproject/src/test/java/runners/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mycucumberproject/src/test/java/stepdefinitions/GoogleStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mycucumberproject/src/test/java/stepdefinitions/GoogleStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mycucumberproject/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mycucumberproject/src/test/java/utilities/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mycucumberproject/src/test/java/utilities/ReusableMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mycucumberproject/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mycucumberproject/src/test/resources/features/day19_first_feature_file.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mycucumberproject/src/test/resources/features/day20_customer_login.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mycucumberproject/src/test/resources/features/day20_parameterizing_feature_file.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mycucumberproject/src/test/resources/features/day20_scenario_outline1.feature" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Capitals.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day08_AutoSuggestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day08_CaptureScreenshot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day08_FileDownloadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day08_FileExistTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day08_FileUploadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day09_CaptureScreenshotElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day10_ReadExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day10_WebTables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day10_WriteExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day11_ExplicitWait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day11_JSExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshot202307290009.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshot202307290010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshot202307290011.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshot202307292730.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshot202307292731.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshot202307292732.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshot202307292734.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day04_TestBaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day04_TestBaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day06_NewWindowTabs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day06_NewWindowTabs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day07_Actions1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day07_Actions1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day07_Actions2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day07_Actions2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day07_Cookies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day07_Cookies.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/myfirstproject/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/utilities/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +50,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2SRtvOKo6onXkSfOba0XDq4bqiv" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -48,16 +61,21 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Irina/Desktop/all git/clone B159_160junit/resources&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Irina\Desktop\all git\clone B159_160junit\resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Irina\Desktop\all git\clone B159_160junit\resources" />
       <recent name="$PROJECT_DIR$/drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Day07_Actions2.dragAndDropTest">
-    <configuration name="Day06_BasicAuth.authTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Day11_JSExecutor.jsExecutorTest1">
+    <configuration name="Day10_ReadExcel.readExcel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myseleniumproject" />
       <extension name="coverage">
         <pattern>
@@ -66,14 +84,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.myfirstproject" />
-      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day06_BasicAuth" />
-      <option name="METHOD_NAME" value="authTest" />
+      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day10_ReadExcel" />
+      <option name="METHOD_NAME" value="readExcel" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day07_Actions1.actions1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Day10_WebTables" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myseleniumproject" />
       <extension name="coverage">
         <pattern>
@@ -82,14 +100,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.myfirstproject" />
-      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day07_Actions1" />
-      <option name="METHOD_NAME" value="actions1Test" />
+      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day10_WebTables" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day10_WebTables.printTable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myseleniumproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myfirstproject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.myfirstproject" />
+      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day10_WebTables" />
+      <option name="METHOD_NAME" value="printTable" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day07_Actions2.dragAndDropTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Day10_WriteExcel.writeExcel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myseleniumproject" />
       <extension name="coverage">
         <pattern>
@@ -98,14 +131,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.myfirstproject" />
-      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day07_Actions2" />
-      <option name="METHOD_NAME" value="dragAndDropTest" />
+      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day10_WriteExcel" />
+      <option name="METHOD_NAME" value="writeExcel" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day07_Cookies.cookiesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Day11_JSExecutor.jsExecutorTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myseleniumproject" />
       <extension name="coverage">
         <pattern>
@@ -114,24 +147,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.myfirstproject" />
-      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day07_Cookies" />
-      <option name="METHOD_NAME" value="cookiesTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test1.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myseleniumproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.myfirstproject.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.myfirstproject" />
-      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.test1" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day11_JSExecutor" />
+      <option name="METHOD_NAME" value="jsExecutorTest1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Day07_Actions2.dragAndDropTest" />
-        <item itemvalue="JUnit.Day07_Actions1.actions1Test" />
-        <item itemvalue="JUnit.Day07_Cookies.cookiesTest" />
-        <item itemvalue="JUnit.test1.test2" />
-        <item itemvalue="JUnit.Day06_BasicAuth.authTest" />
+        <item itemvalue="JUnit.Day11_JSExecutor.jsExecutorTest1" />
+        <item itemvalue="JUnit.Day10_WebTables" />
+        <item itemvalue="JUnit.Day10_WebTables.printTable" />
+        <item itemvalue="JUnit.Day10_WriteExcel.writeExcel" />
+        <item itemvalue="JUnit.Day10_ReadExcel.readExcel" />
       </list>
     </recent_temporary>
   </component>
@@ -157,6 +174,28 @@
       <updated>1689121452543</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/myfirstproject/Day08_AutoSuggestion.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

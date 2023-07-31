@@ -20,29 +20,29 @@ public class Day06_NewWindowTabs extends TestBase {
         driver.switchTo().newWindow(WindowType.TAB);//creating and switching to a new TAB
         driver.get("https://www.ebay.com");
         String ebayWindowHandle = driver.getWindowHandle();
-        System.out.println("WINDOW 2 "+ebayWindowHandle);
+        System.out.println("WINDOW 2 " + ebayWindowHandle);
         Assert.assertTrue(driver.getTitle().contains("eBay"));
         Thread.sleep(5000);
-//        At this point driver is on Ebay Tab
-//        To switch back to linkedin tab, we use traditional switchTo().window(linkeden window handle)
+//       At this point driver is on Ebay Tab
+//       To switch back to linkedin tab, we use traditional switchTo().window(linkeden window handle)
         driver.switchTo().window(window1Handle);//switching linkedin
         Thread.sleep(5000);
-        System.out.println("Linkedin Title "+driver.getTitle());
+        System.out.println("Linkedin Title " + driver.getTitle());
         driver.switchTo().window(ebayWindowHandle);//switching ebay
         Thread.sleep(5000);
-        System.out.println("Ebay Title "+driver.getTitle());
+        System.out.println("Ebay Title " + driver.getTitle());
         driver.switchTo().window(window1Handle);//swithing linkedin
         Thread.sleep(5000);
-        System.out.println("Linkedin Title "+driver.getTitle());
+        System.out.println("Linkedin Title " + driver.getTitle());
         driver.switchTo().window(ebayWindowHandle);//switching ebay
         Thread.sleep(5000);
-        System.out.println("Ebay Title "+driver.getTitle());
+        System.out.println("Ebay Title " + driver.getTitle());
 
     }
 
     @Test
     public void newWindowTest() throws InterruptedException {
-//        Open 2 new tabs and verify their TITLES
+//      Open 2 new tabs and verify their TITLES
 //        Linkedin
         driver.get("https://www.linkedin.com");
         Assert.assertTrue(driver.getTitle().contains("LinkedIn"));
@@ -53,13 +53,13 @@ public class Day06_NewWindowTabs extends TestBase {
         driver.switchTo().newWindow(WindowType.WINDOW);//creating and switching to a new WINDOW
         driver.get("https://www.ebay.com");
         String ebayWindowHandle = driver.getWindowHandle();
-        System.out.println("WINDOW 2 "+ebayWindowHandle);
+        System.out.println("WINDOW 2 " + ebayWindowHandle);
         Assert.assertTrue(driver.getTitle().contains("eBay"));
         Thread.sleep(5000);
 //        At this point driver is on Ebay Tab
 //        To switch back to linkedin tab, we use traditional switchTo().window(linkeden window handle)
         driver.switchTo().window(window1Handle);//switching linkedin
-        Thread.sleep(5000);
+       Thread.sleep(5000);
         System.out.println("Linkedin Title "+driver.getTitle());
         driver.switchTo().window(ebayWindowHandle);//switching ebay
         Thread.sleep(5000);
@@ -68,10 +68,10 @@ public class Day06_NewWindowTabs extends TestBase {
         Thread.sleep(5000);
         System.out.println("Linkedin Title "+driver.getTitle());
         driver.switchTo().window(ebayWindowHandle);//switching ebay
-        Thread.sleep(5000);
+       Thread.sleep(5000);
         System.out.println("Ebay Title "+driver.getTitle());
-
 
 
     }
 }
+

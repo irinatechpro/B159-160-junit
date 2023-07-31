@@ -16,7 +16,7 @@ public class Day07_Actions1 extends TestBase {
         driver.get("https://www.amazon.com/");
 //        When use click on “Account” link
 //        1. locate account & list element
-        WebElement accountList = driver.findElement(By.id("nav-link-accountList"));
+       WebElement accountList = driver.findElement(By.id("nav-link-accountList"));//nav-link-accountList
 //        2. hover over (move over) to that element
         /*
         hover over is an Actions class functionality in selenium
@@ -28,29 +28,27 @@ public class Day07_Actions1 extends TestBase {
         actions.moveToElement(accountList).perform();
         Thread.sleep(1000);
         WebElement accountLink = driver.findElement(By.linkText("Account"));
-//        accountLink.click(); //WORKS JUST FINE
+ //       accountLink.click(); //WORKS JUST FINE
 //        BUT ALTERNATIVELY I CAN USE ACTIONS CLICK METHOD
         actions.click(accountLink).perform();
 //        Then verify the page title contains “Your Account”
         Thread.sleep(1000);
-        Assert.assertTrue(driver.getTitle().contains("Your Account"));
+       Assert.assertTrue(driver.getTitle().contains("Your Account"));
 //        Then scroll to Amazon Music element at the bottom of the page
         WebElement amazonMusic = driver.findElement(By.xpath("//td[@class='navFooterDescItem']//*[text()='Amazon Music']"));
-
         actions.moveToElement(amazonMusic).perform();
         Thread.sleep(3000);
-//        And click on it
-//        amazonMusic.click(); ALTERNATIVELY
+//       And click on it
+ //       amazonMusic.click(); //ALTERNATIVELY
         actions.click(amazonMusic).perform();
 //        Then verify Amazon Music page is displayed
-        Assert.assertTrue(driver.getCurrentUrl().contains("music"));
-
-
-        /*
-        We can scroll the pages up or down using PAGE_UP or ARROW_UP
-        The difference between PAGE and ARROW is ARROW scroll less
-         */
-//        moving the page down
+       Assert.assertTrue(driver.getCurrentUrl().contains("music"));
+//
+//        /*
+//        We can scroll the pages up or down using PAGE_UP or ARROW_UP
+//        The difference between PAGE and ARROW is ARROW scroll less
+//         */
+////        moving the page down
         actions
                 .sendKeys(Keys.PAGE_DOWN)
                 .perform();
@@ -65,7 +63,7 @@ public class Day07_Actions1 extends TestBase {
         Thread.sleep(3000);
         actions
                 .sendKeys(Keys.PAGE_UP)
-                .perform();
+                        .perform();
         Thread.sleep(3000);
         actions
                 .sendKeys(Keys.ARROW_UP)
@@ -74,7 +72,7 @@ public class Day07_Actions1 extends TestBase {
         actions
                 .sendKeys(Keys.ARROW_DOWN)
                 .sendKeys(Keys.ARROW_DOWN)
-                .sendKeys(Keys.PAGE_DOWN)
+               .sendKeys(Keys.PAGE_DOWN)
                 .build()//OPTIONAL : build is recommended when we have method chains
                 .perform();//MANDATORY
     }
