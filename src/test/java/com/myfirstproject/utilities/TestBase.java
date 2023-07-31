@@ -1,18 +1,15 @@
 package com.myfirstproject.utilities;
 
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+//import com.aventstack.extentreports.ExtentReports;
+//import com.aventstack.extentreports.ExtentTest;
+//import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.commons.io.FileUtils;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.io.File;
@@ -25,48 +22,48 @@ public abstract class TestBase {
     //This class is used to run @Before and @After methods automatically in the child class
 
     //Create these 3 Extent Reports Objects
-    protected static ExtentHtmlReporter extentHtmlReporter;
-    protected static ExtentReports extentReports;
-    protected static ExtentTest extentTest;
-
-    @BeforeClass
-    public static void extentReportsSetup(){
-        //These steps must be executed before each class so report generating happens
-
-        // Type a dynamic name for report --> The report will be saved in Reports folder
-        String now = new SimpleDateFormat("yyyyMMddmmss").format(new Date());
-        String path = System.getProperty("user.dir") + "/test-output/Reports/extent-reprts" + now + ".html";
-        //the html report will be saved in this path
-        extentHtmlReporter = new ExtentHtmlReporter(path);
-
-        //create extent reports object so the report template can be generated
-        extentReports = new ExtentReports();
-
-        // *** Optionally Add Custom System Information ***
-        extentReports.setSystemInfo("Project Name","Techpro Education");
-        extentReports.setSystemInfo("Browser","Chrome");
-        extentReports.setSystemInfo("Environment","Regression");
-        extentReports.setSystemInfo("Team Name","TechPro");
-        extentReports.setSystemInfo("SQA","John");
-
-        // *** Optionally Add Document Information ***
-        extentHtmlReporter.config().setDocumentTitle("My Extent Report");
-        extentHtmlReporter.config().setReportName("My Regression Report");
-
-        //Attach the extentHtmlReporter
-        extentReports.attachReporter(extentHtmlReporter);
-
-        //Create extentTest
-        extentTest = extentReports.createTest("TechPro Education Regression Report","TechPro team report");
-
-    }
-
-
-    @AfterClass
-    public static void tearDownReport(){
-        //flush() method is required for generating the report
-        extentReports.flush();
-    }
+//   protected static ExtentHtmlReporter extentHtmlReporter;
+//    protected static ExtentReports extentReports;
+//    protected static ExtentTest extentTest;
+//
+//    @BeforeClass
+//    public static void extentReportsSetup(){
+//        //These steps must be executed before each class so report generating happens
+//
+//        // Type a dynamic name for report --> The report will be saved in Reports folder
+//        String now = new SimpleDateFormat("yyyyMMddmmss").format(new Date());
+//        String path = System.getProperty("user.dir") + "/test-output/Reports/extent-reprts" + now + ".html";
+//        //the html report will be saved in this path
+//        extentHtmlReporter = new ExtentHtmlReporter(path);
+//
+//        //create extent reports object so the report template can be generated
+//        extentReports = new ExtentReports();
+//
+//        // *** Optionally Add Custom System Information ***
+//        extentReports.setSystemInfo("Project Name","Techpro Education");
+//        extentReports.setSystemInfo("Browser","Chrome");
+//        extentReports.setSystemInfo("Environment","Regression");
+//        extentReports.setSystemInfo("Team Name","TechPro");
+//        extentReports.setSystemInfo("SQA","John");
+//
+//        // *** Optionally Add Document Information ***
+//        extentHtmlReporter.config().setDocumentTitle("My Extent Report");
+//        extentHtmlReporter.config().setReportName("My Regression Report");
+//
+//        //Attach the extentHtmlReporter
+//        extentReports.attachReporter(extentHtmlReporter);
+//
+//        //Create extentTest
+//        extentTest = extentReports.createTest("TechPro Education Regression Report","TechPro team report");
+//
+//    }
+//
+//
+//    @AfterClass
+//    public static void tearDownReport(){
+//        //flush() method is required for generating the report
+//        extentReports.flush();
+    //  }
 
 
     protected static WebDriver driver;
@@ -76,12 +73,12 @@ public abstract class TestBase {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        driver.manage().window().maximize();
+        //    driver.manage().window().maximize();
     }
 
     @After//This will run after @Test methods
     public void tearDown() {
-        driver.quit();
+        // driver.quit();
     }
 
     //The method to take screenshot entire page
@@ -128,5 +125,71 @@ public abstract class TestBase {
     }
 
 
+    // 31.07.23   JS EXECUTOR METHODS
+    /*
+    click with JS
+    param : WebWlement
+    action : clicks on the given element
+     */
+    public static void clickByJS(WebElement element) {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].click();", element);
+    }
+
+    /*
+    scroll into specific elements
+    param : WebElement
+    action: scrolls into the given element
+    */
+    public static void scrollIntoViewJS(WebElement element) {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].scrollIntoView(true);", element);
+    }
+
+    /*
+        scroll all down
+        */
+    public static void scrollAllDownJS() {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("window.scrollTo(0,document.body.scrollHeight)");
+    }
+
+    /*
+        scroll all down
+        */
+    public static void scrollAllUpJS() {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("window.scrollTo(0,-document.body.scrollHeight)");
+    }
+
+    /*
+    locating elements by javascript executor-normally we may not need this
+
+     */
+    public WebElement locateElementByJS(String id) {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        return ((WebElement) js.executeScript("return document.getElementById('" + id + "')"));
+    }
+
+    /*
+    getting the VALUE of elements-useful to get the values of input elements where getText() doesn't work
+    param : id of the element
+    locating the element and returning the value of the element
+    return document.getElementById('"+id+"') -> RETURNS THE ELEMENT BY ID
+    return document.getElementById('"+id+"').value -> RETURNS THE VALUE ATTRIBUTE OF THE ELEMENT
+    toString() -> RETURN THE VALUE AS STRING
+     */
+    public static String getValueByJS(String id){
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        return js.executeScript("return document.getElementById('"+id+"').value").toString();
+    }
+    /*
+    @param1 WebElement, @param2 String
+    type the string in that input element
+     */
+    public static void setValueByJS(WebElement inputElement,String text){
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].setAttribute('value','"+text+"')",inputElement);
+    }
 
 }

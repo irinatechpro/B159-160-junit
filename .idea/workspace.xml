@@ -5,33 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79878743-3c49-4f37-b20e-42f13c2e7e63" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/Capitals.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day08_AutoSuggestion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day08_CaptureScreenshot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day08_FileDownloadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day08_FileExistTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day08_FileUploadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day09_CaptureScreenshotElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day10_ReadExcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day10_WebTables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day10_WriteExcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day11_ExplicitWait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day11_JSExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshot202307290009.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshot202307290010.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshot202307290011.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshot202307292730.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshot202307292731.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshot202307292732.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshot202307292734.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day04_TestBaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day04_TestBaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day06_NewWindowTabs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day06_NewWindowTabs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day07_Actions1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day07_Actions1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day07_Actions2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day07_Actions2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day07_Cookies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day07_Cookies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day11_JSExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day11_JSExecutor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/myfirstproject/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/utilities/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,22 +50,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.Day11_JSExecutor.jsExecutorTest1">
-    <configuration name="Day10_ReadExcel.readExcel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myseleniumproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.myfirstproject.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.myfirstproject" />
-      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day10_ReadExcel" />
-      <option name="METHOD_NAME" value="readExcel" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Day10_WebTables" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myseleniumproject" />
       <extension name="coverage">
@@ -138,6 +97,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day11_JSExecutor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myseleniumproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myfirstproject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.myfirstproject" />
+      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day11_JSExecutor" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Day11_JSExecutor.jsExecutorTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myseleniumproject" />
       <extension name="coverage">
@@ -157,10 +131,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Day11_JSExecutor.jsExecutorTest1" />
+        <item itemvalue="JUnit.Day11_JSExecutor" />
         <item itemvalue="JUnit.Day10_WebTables" />
         <item itemvalue="JUnit.Day10_WebTables.printTable" />
         <item itemvalue="JUnit.Day10_WriteExcel.writeExcel" />
-        <item itemvalue="JUnit.Day10_ReadExcel.readExcel" />
       </list>
     </recent_temporary>
   </component>

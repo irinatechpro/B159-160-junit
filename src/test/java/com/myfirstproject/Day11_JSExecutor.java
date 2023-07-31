@@ -18,32 +18,34 @@ public class Day11_JSExecutor extends TestBase {
         Thread.sleep(2000);
 //        When use click on “Account” link
         Actions actions = new Actions(driver);
-//        WebElement accountList = driver.findElement(By.id("nav-link-accountList"));//ALTERNATIVELY
- //       WebElement accountList =locateElementByJS("nav-link-accountList");
-//        actions.moveToElement(accountList).perform();
-//        Thread.sleep(2000);
-//        WebElement accountLink = driver.findElement(By.linkText("Account"));
-////        accountLink.click(); ALTERNATIVELY ( ESPECIALLY WHEN NORMAL CLICK DOESN'T WORK)
-//        clickByJS(accountLink);
-//        Thread.sleep(2000);
-////        Then verify the page title contains “Your Account”
-//        Assert.assertTrue(driver.getTitle().contains("Account"));
-////        Then scroll to Amazon Music element at the bottom of the page
-//        WebElement amazonMusic=driver.findElement(By.xpath("//*[text()='Amazon Music']"));
-////        actions.moveToElement(amazonMusic).perform();// ALTERNATIVELY
-//        scrollIntoViewJS(amazonMusic);
-//        Thread.sleep(2000);
+        WebElement accountList = driver.findElement(By.id("nav-link-accountList"));//ALTERNATIVELY
+        actions.moveToElement(accountList).perform();
+
+        //WebElement accountList =locateElementByJS("nav-link-accountList");
+
+        Thread.sleep(2000);
+        WebElement accountLink = driver.findElement(By.linkText("Account"));
+//        accountLink.click(); ALTERNATIVELY ( ESPECIALLY WHEN NORMAL CLICK DOESN'T WORK)
+        clickByJS(accountLink);
+        Thread.sleep(2000);
+//        Then verify the page title contains “Your Account”
+        Assert.assertTrue(driver.getTitle().contains("Account"));
+//        Then scroll to Amazon Music element at the bottom of the page
+        WebElement amazonMusic=driver.findElement(By.xpath("//*[text()='Amazon Music']"));
+//       actions.moveToElement(amazonMusic).perform(); // ALTERNATIVELY
+       scrollIntoViewJS(amazonMusic);
+       Thread.sleep(2000);
 ////        And click on it
 ////        amazonMusic.click();//ALTERNATIVELY
-//        clickByJS(amazonMusic);
-//        Thread.sleep(2000);
+        clickByJS(amazonMusic);
+        Thread.sleep(2000);
 ////        Then verify Amazon Music page is displayed
-//        Assert.assertTrue(driver.getCurrentUrl().contains("music"));
+        Assert.assertTrue(driver.getCurrentUrl().contains("music"));
 ////        Scroll the page up and down
-//        scrollAllDownJS();
-//        Thread.sleep(2000);
-//        scrollAllUpJS();
-//        Thread.sleep(2000);
+        scrollAllDownJS();
+        Thread.sleep(2000);
+        scrollAllUpJS();
+        Thread.sleep(2000);
 //
 ////        search for Pop
 //        WebElement searchBox = locateElementByJS("navbarSearchInput");
