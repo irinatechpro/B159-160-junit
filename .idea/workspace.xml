@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="79878743-3c49-4f37-b20e-42f13c2e7e63" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day11_JSExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day11_JSExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day11_ExplicitWait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day11_ExplicitWait.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +48,7 @@
       <recent name="$PROJECT_DIR$/drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Day11_JSExecutor">
+  <component name="RunManager" selected="JUnit.Day11_ExplicitWait.explicitWaitTest">
     <configuration name="Day10_WebTables" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myseleniumproject" />
       <extension name="coverage">
@@ -80,7 +80,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day10_WriteExcel.writeExcel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Day11_ExplicitWait.explicitWaitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myseleniumproject" />
       <extension name="coverage">
         <pattern>
@@ -89,8 +89,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.myfirstproject" />
-      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day10_WriteExcel" />
-      <option name="METHOD_NAME" value="writeExcel" />
+      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day11_ExplicitWait" />
+      <option name="METHOD_NAME" value="explicitWaitTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Day11_ExplicitWait.explicitWaitTest" />
         <item itemvalue="JUnit.Day11_JSExecutor" />
         <item itemvalue="JUnit.Day11_JSExecutor.jsExecutorTest1" />
         <item itemvalue="JUnit.Day10_WebTables" />
         <item itemvalue="JUnit.Day10_WebTables.printTable" />
-        <item itemvalue="JUnit.Day10_WriteExcel.writeExcel" />
       </list>
     </recent_temporary>
   </component>
