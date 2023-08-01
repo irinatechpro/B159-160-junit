@@ -1,5 +1,6 @@
 package com.myfirstproject;
 
+import com.myfirstproject.utilities.LoggerUtils;
 import com.myfirstproject.utilities.TestBase;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -19,6 +20,7 @@ public class Day12_StaleElementReferenceException extends TestBase {
 
     @Test
     public void saleElementReferenceException() {
+        LoggerUtils.info("Go to homepage");
 //        Given go to https://techproeducation.com/
         driver.get("https://techproeducation.com/");
 
@@ -26,6 +28,7 @@ public class Day12_StaleElementReferenceException extends TestBase {
         WebElement opportunities = driver.findElement(By.linkText("Opportunities"));
 
         new Actions(driver).moveToElement(opportunities).perform();
+        LoggerUtils.info("hover over oppo");
 
 //        And click on career coaching
         WebElement careerCoaching = driver.findElement(By.xpath("//a[.='Career Coaching']"));
