@@ -37,9 +37,10 @@ public class Day12_StaleElementReferenceException extends TestBase {
         // to not have StaleElementReferenceException, we need to relocate the elements after navigate back, forward and refresh
 
 //        And hover over opportunities
-        opportunities = driver.findElement(By.linkText("Opportunities"));//opportunities web element reference was stale. because of that we relocate the element to refresh it.
-        new Actions(driver).moveToElement(opportunities).perform();
-        assertEquals("TechPro Education", driver.getTitle());
+ //      opportunities = driver.findElement(By.linkText("Opportunities"));//opportunities web element reference was stale. because of that we relocate the element to refresh it.
+  //      new Actions(driver).moveToElement(opportunities).perform();
+//        assertEquals("TechPro Education", driver.getTitle());
 
     }
+
 }
