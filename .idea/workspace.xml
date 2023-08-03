@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="79878743-3c49-4f37-b20e-42f13c2e7e63" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/myfirstproject/practices/practice05/Q02_UploadFile_FillForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/practices/practice05/Q02_UploadFile_FillForm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/myfirstproject/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/utilities/TestBase.java" afterDir="false" />
     </list>
@@ -36,14 +35,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Irina/Desktop/all git/clone B159_160junit/resources&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Irina/Desktop/all git/clone B159_160junit/resources",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.myfirstproject.utilities" />
@@ -56,7 +56,7 @@
       <recent name="$PROJECT_DIR$/drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Q02_UploadFile_FillForm">
+  <component name="RunManager" selected="JUnit.Q04_WebTables_RoofHeight">
     <configuration name="Day03_Locators" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myseleniumproject" />
       <extension name="coverage">
@@ -68,22 +68,6 @@
       <option name="PACKAGE_NAME" value="com.myfirstproject" />
       <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day03_Locators" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q01_Actions_DrawShape.actions_DrawShape" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myseleniumproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.myfirstproject.practices.practice05.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.myfirstproject.practices.practice05" />
-      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.practices.practice05.Q01_Actions_DrawShape" />
-      <option name="METHOD_NAME" value="actions_DrawShape" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -134,13 +118,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Q04_WebTables_RoofHeight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myseleniumproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myfirstproject.practices.practice05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.myfirstproject.practices.practice05" />
+      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.practices.practice05.Q04_WebTables_RoofHeight" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Q04_WebTables_RoofHeight" />
+        <item itemvalue="JUnit.Q02_UploadFile_FillForm.uploadFile_FillForm" />
         <item itemvalue="JUnit.Q02_UploadFile_FillForm" />
         <item itemvalue="JUnit.Q03_Wait_AjaxLoader" />
-        <item itemvalue="JUnit.Q02_UploadFile_FillForm.uploadFile_FillForm" />
         <item itemvalue="JUnit.Day03_Locators" />
-        <item itemvalue="JUnit.Q01_Actions_DrawShape.actions_DrawShape" />
       </list>
     </recent_temporary>
   </component>

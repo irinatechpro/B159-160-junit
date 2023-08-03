@@ -31,7 +31,7 @@ public class Q02_UploadFile_FillForm extends TestBase {
         driver.findElement(By.xpath("//textarea")).sendKeys("Hello, this is my application");
 
 //        Choose a file and upload it
-        driver.findElement(By.name("filename")).sendKeys(System.getProperty("user.home") + "/Desktop/image.png");
+        driver.findElement(By.name("filename")).sendKeys(System.getProperty("user.home") + "/Desktop\\1.JPG");
 
 //        Select all checkboxes, radio buttons and first dropdowns
         driver
@@ -53,7 +53,7 @@ public class Q02_UploadFile_FillForm extends TestBase {
 
 //        Verify that uploaded file name is on the Form Details.
         String fileName = driver.findElement(By.id("_valuefilename")).getText();
-        assertEquals("image.png", fileName);
+        assertEquals("1.JPG", fileName);
 
     }
 }
