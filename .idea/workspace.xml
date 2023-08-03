@@ -5,8 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79878743-3c49-4f37-b20e-42f13c2e7e63" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day09_CaptureScreenshotElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day12_StaleElementReferenceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day12_StaleElementReferenceException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/myfirstproject/Day09_CaptureScreenshotElements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/myfirstproject/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/utilities/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshot202307290009.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshot202307290010.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshot202307290011.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshot202307292730.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshot202307292731.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshot202307292732.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshot202307292734.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +32,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2SRtvOKo6onXkSfOba0XDq4bqiv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -40,6 +53,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.myfirstproject.utilities" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Irina\Desktop\all git\clone B159_160junit\resources" />
     </key>
@@ -48,8 +64,8 @@
       <recent name="$PROJECT_DIR$/drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Day12_Log4J2.log4J2Test">
-    <configuration name="Day12_FluentWait.fluentWait" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Day13_ReusableMethods">
+    <configuration name="Day09_CaptureScreenshotElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myseleniumproject" />
       <extension name="coverage">
         <pattern>
@@ -58,29 +74,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.myfirstproject" />
-      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day12_FluentWait" />
-      <option name="METHOD_NAME" value="fluentWait" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day12_Log4J2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myseleniumproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.myfirstproject.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.myfirstproject" />
-      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day12_Log4J2" />
+      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day09_CaptureScreenshotElement" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day12_Log4J2.log4J2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Day09_ExtentReports" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myseleniumproject" />
       <extension name="coverage">
         <pattern>
@@ -89,29 +89,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.myfirstproject" />
-      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day12_Log4J2" />
-      <option name="METHOD_NAME" value="log4J2Test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day12_StaleElementReferenceException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myseleniumproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.myfirstproject.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.myfirstproject" />
-      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day12_StaleElementReferenceException" />
+      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day09_ExtentReports" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day12_StaleElementReferenceException.saleElementReferenceException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Day09_ExtentReports.extentReportsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myseleniumproject" />
       <extension name="coverage">
         <pattern>
@@ -120,20 +104,51 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.myfirstproject" />
-      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day12_StaleElementReferenceException" />
-      <option name="METHOD_NAME" value="saleElementReferenceException" />
+      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day09_ExtentReports" />
+      <option name="METHOD_NAME" value="extentReportsTest" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day09_ExtentReports.extentReportsTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myseleniumproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myfirstproject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.myfirstproject" />
+      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day09_ExtentReports" />
+      <option name="METHOD_NAME" value="extentReportsTest2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day13_ReusableMethods" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myseleniumproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myfirstproject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.myfirstproject" />
+      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day13_ReusableMethods" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Day12_Log4J2.log4J2Test" />
-        <item itemvalue="JUnit.Day12_Log4J2" />
-        <item itemvalue="JUnit.Day12_StaleElementReferenceException.saleElementReferenceException" />
-        <item itemvalue="JUnit.Day12_StaleElementReferenceException" />
-        <item itemvalue="JUnit.Day12_FluentWait.fluentWait" />
+        <item itemvalue="JUnit.Day13_ReusableMethods" />
+        <item itemvalue="JUnit.Day09_CaptureScreenshotElement" />
+        <item itemvalue="JUnit.Day09_ExtentReports.extentReportsTest" />
+        <item itemvalue="JUnit.Day09_ExtentReports" />
+        <item itemvalue="JUnit.Day09_ExtentReports.extentReportsTest2" />
       </list>
     </recent_temporary>
   </component>
