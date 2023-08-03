@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="79878743-3c49-4f37-b20e-42f13c2e7e63" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/myfirstproject/practices/practice05/Q02_UploadFile_FillForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/practices/practice05/Q02_UploadFile_FillForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/myfirstproject/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myfirstproject/utilities/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,8 +56,8 @@
       <recent name="$PROJECT_DIR$/drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Q01_Actions_DrawShape.actions_DrawShape">
-    <configuration name="Day09_CaptureScreenshotElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Q02_UploadFile_FillForm">
+    <configuration name="Day03_Locators" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myseleniumproject" />
       <extension name="coverage">
         <pattern>
@@ -63,53 +66,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.myfirstproject" />
-      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day09_CaptureScreenshotElement" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day09_ExtentReports.extentReportsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myseleniumproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.myfirstproject.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.myfirstproject" />
-      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day09_ExtentReports" />
-      <option name="METHOD_NAME" value="extentReportsTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day13_ReusableMethods" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myseleniumproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.myfirstproject.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.myfirstproject" />
-      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day13_ReusableMethods" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q01_Actions_DrawShape" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myseleniumproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.myfirstproject.practices.practice05.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.myfirstproject.practices.practice05" />
-      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.practices.practice05.Q01_Actions_DrawShape" />
+      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.Day03_Locators" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,13 +88,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Q02_UploadFile_FillForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myseleniumproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myfirstproject.practices.practice05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.myfirstproject.practices.practice05" />
+      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.practices.practice05.Q02_UploadFile_FillForm" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q02_UploadFile_FillForm.uploadFile_FillForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myseleniumproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myfirstproject.practices.practice05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.myfirstproject.practices.practice05" />
+      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.practices.practice05.Q02_UploadFile_FillForm" />
+      <option name="METHOD_NAME" value="uploadFile_FillForm" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q03_Wait_AjaxLoader" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myseleniumproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myfirstproject.practices.practice05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.myfirstproject.practices.practice05" />
+      <option name="MAIN_CLASS_NAME" value="com.myfirstproject.practices.practice05.Q03_Wait_AjaxLoader" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Q02_UploadFile_FillForm" />
+        <item itemvalue="JUnit.Q03_Wait_AjaxLoader" />
+        <item itemvalue="JUnit.Q02_UploadFile_FillForm.uploadFile_FillForm" />
+        <item itemvalue="JUnit.Day03_Locators" />
         <item itemvalue="JUnit.Q01_Actions_DrawShape.actions_DrawShape" />
-        <item itemvalue="JUnit.Q01_Actions_DrawShape" />
-        <item itemvalue="JUnit.Day13_ReusableMethods" />
-        <item itemvalue="JUnit.Day09_CaptureScreenshotElement" />
-        <item itemvalue="JUnit.Day09_ExtentReports.extentReportsTest" />
       </list>
     </recent_temporary>
   </component>
